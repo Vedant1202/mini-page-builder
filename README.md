@@ -1,3 +1,48 @@
+# Mini Page Builder Application
+
+A project for Mini Page Builder using React and Redux. Has drag and drop features with three components - 
+
+1. Labels
+2. Inputs
+3. Buttons
+
+Live demo at [Mini Page Builder](https://vedant1202.github.io/mini-page-builder/)
+
+## Getting Started
+
+### Installation
+
+The yarn package manager is recommended.
+
+Clone the repo:
+
+```bash
+git clone https://github.com/vedant1202/mini-page-builder.git
+cd mini-page-builder
+```
+
+Install the dependencies:
+
+```bash
+yarn install
+
+## Or if you have NPM
+npm install
+
+```
+
+Running locally:
+
+```bash
+yarn start
+
+## Or if you have NPM
+npm run start
+
+```
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
