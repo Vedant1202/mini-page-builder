@@ -59,6 +59,7 @@ class DragDropPage extends Component {
         };
     }
 
+    // When component mounts, retrieve the previous stored redux data and set the state 
     componentDidMount = () => {
         const { savedState } = this.props;
         if (this.props.savedState) {
@@ -68,6 +69,7 @@ class DragDropPage extends Component {
         }
     };
 
+    // Function to show modal
     showModal = e => {
         const { toShowModal, draggedDivRepeat } = this.state;
         const modalVisible = toShowModal ? true : false;
@@ -89,6 +91,7 @@ class DragDropPage extends Component {
         );
     };
 
+    // Handle 'OK' click of modal
     handleOk = () => {
         const { modalName, modalFontSize, modalFontWeight, tempEvent } = this.state;
 
@@ -110,12 +113,16 @@ class DragDropPage extends Component {
         }
     };
 
+    // Handle closing of modal
     handleCancel = () => {
         this.setState({
             modalVisible: false,
         });
     };
 
+    // Handling the start action of dragging an element
+    // The variable 'repeat' indicates if a new component is being added or 
+    // if the same component is being dragged to a new place.
     onDragStart = (ev, id, repeat = false) => {
         const toShowModal = repeat ? false : true;
 
@@ -131,16 +138,20 @@ class DragDropPage extends Component {
         });
     };
 
+    // Handling dragging of the component over draggable area
     onDragOver = ev => {
         ev.preventDefault();
     };
 
+    // Handle input typing of modal inputs
     handleChange = event => {
         const { value, name } = event.target;
 
         this.setState({ [name]: value });
     };
 
+    // Handling of dropping event. This function also updates the state
+    // when a component is being dropped
     onDrop = (ev, cat) => {
         let repeat, id;
         const { setCurrentSavedState } = this.props;
@@ -203,6 +214,7 @@ class DragDropPage extends Component {
         );
     };
 
+    // Handle input typing of input elements (which are dropped on the canvas)
     handleInputChange = (e, key) => {
         const newValue = e.target.value;
         const { inputValues } = this.state;
@@ -220,6 +232,7 @@ class DragDropPage extends Component {
         });
     };
 
+    // Handle selecting elements
     handleClick = key => {
         const { placed } = this.state;
 
@@ -236,6 +249,7 @@ class DragDropPage extends Component {
         });
     };
 
+    // Handle deletion of elements
     handleDelete = e => {
         if (parseInt(e.keyCode) === 46) {
             const { setCurrentSavedState } = this.props;
@@ -266,6 +280,7 @@ class DragDropPage extends Component {
 
         const { inputValues, modalX, modalY, modalName, modalFontSize, modalFontWeight } = this.state;
 
+        // Load previously placed elements
         if (this.state.placed.length > 0) {
             this.state.placed.forEach(t => {
                 if (t.type === 'label') {
@@ -338,6 +353,7 @@ class DragDropPage extends Component {
             });
         }
 
+        // Actual page rendering
         return (
             <div className='drag-drop-page' onKeyDown={e => this.handleDelete(e)} tabIndex='0'>
                 <div className='container-drag'>
