@@ -41,17 +41,46 @@ npm run start
 
 ```
 
+## Screenshots
+
+1. Blank/Starting page 
+![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/blank-page.png?raw=true)
+
+2. Modal (empty) 
+![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/modal-empty.png?raw=true)
+
+3. Modal (with data filled in by user) 
+![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/modal-filled.png?raw=true)
+
+4. Single element 
+![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/one-element.png?raw=true)
+
+5. Many elements 
+![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/many-element.png?raw=true)
+
+6. Select elements for deletion
+![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/select-for-delete.png?raw=true)
+
+7. After deletion of selected elements
+![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/after-delete.png?raw=true)
 
 
-# Getting Started with Create React App
+## Flowchart 
+
+A flowchart graphic explaining how the system works.
+
+![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/mini-page-builder-flowchart.png?raw=true)
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+#### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -59,12 +88,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+#### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+#### `yarn build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -74,7 +103,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+#### `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
