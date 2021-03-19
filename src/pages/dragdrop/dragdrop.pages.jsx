@@ -59,7 +59,7 @@ class DragDropPage extends Component {
         };
     }
 
-    // When component mounts, retrieve the previous stored redux data and set the state 
+    // When component mounts, retrieve the previous stored redux data and set the state
     componentDidMount = () => {
         const { savedState } = this.props;
         if (this.props.savedState) {
@@ -121,7 +121,7 @@ class DragDropPage extends Component {
     };
 
     // Handling the start action of dragging an element
-    // The variable 'repeat' indicates if a new component is being added or 
+    // The variable 'repeat' indicates if a new component is being added or
     // if the same component is being dragged to a new place.
     onDragStart = (ev, id, repeat = false) => {
         const toShowModal = repeat ? false : true;
