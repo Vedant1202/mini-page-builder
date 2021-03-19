@@ -44,32 +44,32 @@ npm run start
 ## Screenshots
 
 1. Blank/Starting page 
-![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/blank-page.png?raw=true)
+![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/screenshots/blank-page.png?raw=true)
 
 2. Modal (empty) 
-![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/modal-empty.png?raw=true)
+![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/screenshots/modal-empty.png?raw=true)
 
 3. Modal (with data filled in by user) 
-![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/modal-filled.png?raw=true)
+![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/screenshots/modal-filled.png?raw=true)
 
 4. Single element 
-![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/one-element.png?raw=true)
+![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/screenshots/one-element.png?raw=true)
 
 5. Many elements 
-![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/many-element.png?raw=true)
+![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/screenshots/many-element.png?raw=true)
 
 6. Select elements for deletion
-![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/select-for-delete.png?raw=true)
+![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/screenshots/select-for-delete.png?raw=true)
 
 7. After deletion of selected elements
-![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/after-delete.png?raw=true)
+![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/screenshots/after-delete.png?raw=true)
 
 
 ## Flowchart 
 
 A flowchart graphic explaining how the system works.
 
-![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/mini-page-builder-flowchart.png?raw=true)
+![alt text](https://github.com/Vedant1202/mini-page-builder/blob/master/docs/mini-page-builder-flowchart.png?raw=true)
 
 
 ## Getting Started with Create React App
