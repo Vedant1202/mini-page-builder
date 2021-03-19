@@ -6,6 +6,8 @@ A project for Mini Page Builder using React and Redux. Has drag and drop feature
 2. Inputs
 3. Buttons
 
+Github repository at [https://github.com/Vedant1202/mini-page-builder](https://github.com/Vedant1202/mini-page-builder)
+
 Live demo at [Mini Page Builder](https://vedant1202.github.io/mini-page-builder/)
 
 ## Getting Started
