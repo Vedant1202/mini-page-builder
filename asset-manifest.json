@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mini-page-builder/static/css/main.daa86147.chunk.css",
+    "main.js": "/mini-page-builder/static/js/main.07e850c9.chunk.js",
+    "main.js.map": "/mini-page-builder/static/js/main.07e850c9.chunk.js.map",
+    "runtime-main.js": "/mini-page-builder/static/js/runtime-main.2f2678e7.js",
+    "runtime-main.js.map": "/mini-page-builder/static/js/runtime-main.2f2678e7.js.map",
+    "static/css/2.a708162c.chunk.css": "/mini-page-builder/static/css/2.a708162c.chunk.css",
+    "static/js/2.3460ff3e.chunk.js": "/mini-page-builder/static/js/2.3460ff3e.chunk.js",
+    "static/js/2.3460ff3e.chunk.js.map": "/mini-page-builder/static/js/2.3460ff3e.chunk.js.map",
+    "static/js/3.3e485e87.chunk.js": "/mini-page-builder/static/js/3.3e485e87.chunk.js",
+    "static/js/3.3e485e87.chunk.js.map": "/mini-page-builder/static/js/3.3e485e87.chunk.js.map",
+    "index.html": "/mini-page-builder/index.html",
+    "static/css/2.a708162c.chunk.css.map": "/mini-page-builder/static/css/2.a708162c.chunk.css.map",
+    "static/css/main.daa86147.chunk.css.map": "/mini-page-builder/static/css/main.daa86147.chunk.css.map",
+    "static/js/2.3460ff3e.chunk.js.LICENSE.txt": "/mini-page-builder/static/js/2.3460ff3e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f2678e7.js",
+    "static/css/2.a708162c.chunk.css",
+    "static/js/2.3460ff3e.chunk.js",
+    "static/css/main.daa86147.chunk.css",
+    "static/js/main.07e850c9.chunk.js"
+  ]
+}
